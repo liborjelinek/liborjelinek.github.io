@@ -1,0 +1,246 @@
+{% extends "_base.html" %}
+{% block title %}Hi there 👋{% endblock %}
+{% block content %}
+
+<div class="container mtb">
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-1 centered">
+      <img src="img/ja.jpg" class="img-thumbnail">
+    </div>
+
+    <div class="col-xs-12 col-md-7 centered">
+      <div class="page-header">
+        <h1>Libor Jelínek</h1>
+        <p class="h2">
+          Enthusiastic Python and JavaScript programmer. I'm a tech writer, trainer, and computer book author. Running <a href="https://documatt.com">documatt.com</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mtb">
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1">
+        <h4>Welcome.</h4>
+        <p>Hi, my name is Libor Jelínek. I'm just a programmer do love documentation. I was born and live in the Czech Republic. I'm <code>datetime.date.today().year - 1984</code> years old.</p>
+
+        <p>In past, I spent 10 years in Java, the last 5 years doing Python and JavaScript. My main job now is tech writing, but I still actively contribute to a number of open-source projects.</p>
+
+        <p>During my career, I led many computer training, wrote a few books, and translated others from English to Czech.</p>
+
+        <p>I founded <a href="https://documatt.com">Documatt</a>, an online tool for authoring docs, manuals and books for tech and novel writers.</p>
+
+        <p>
+          <a href="mailto:liborjelinek@icloud.com" class="btn btn-theme">Hire me</a>
+
+          or get in touch on
+
+          <a href="https://twitter.com/liborjelinek"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://github.com/liborjelinek"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </p>
+      </div>
+
+      <div class="col-md-4 col-md-offset-1">
+        <h4>Portfolio.</h4>
+
+        <p><span class="text-muted">Python:</span> Django, Django REST Framework, Celery, RQ, Falcon, Sphinx doc</p>
+        <p><span class="text-muted">Frontend:</span> JavaScript and ES6+, Vue.js, CSS 3, Sass, Npm, Webpack</p>
+        <p><span class="text-muted">DBs:</span> relation (Sqlite, PostgreSQL, normalization, DML and DLL SQL), non-relation (Redis)</p>
+        <p><span class="text-muted">Linux:</span> experienced Ubuntu/Debian</p>
+        <p><span class="text-muted">Cloud:</span> Docker, Kubernetes, AWS, Heroku</p>
+        <p><span class="text-muted">General:</span> Git, agile, patterns, REST, OpenAPI (Swagger), security, licencing</p>
+
+      </div>
+  </div>
+</div>
+
+<div class="container mt">
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1">
+        <h2>Publishing and blogging.</h2>
+        <p class="lead">Writing docs even in my spare time.</p>
+        <ul>
+            <li>
+              <strong>Tech writer at work blog (<a href="https://documatt.com/blog/">https://documatt.com/blog/</a>)</strong>. Living and writing documentation. The blog of a programmer that do write documentation too.
+            </li>
+            <li>
+              <strong>reStructuredText and Sphinx Reference (<a href="https://documatt.com/restructuredtext-reference/">https://documatt.com/restructuredtext-reference/</a>)</strong>. Example based gentle reference of the reStructuredText and Sphinx syntax, directives, roles and common issues.
+        </li>
+        </ul>
+      </div>
+
+      <div class="col-md-5">
+        <h2>Sphinx doc extensions.</h2>
+        <p class="lead">I wrote few extensions for <a href="https://sphinx-doc.org">Sphinx documentation</a>.</p>
+        <ul>
+            <li>
+              <strong>sphinxcontrib-constdata (<a href="https://documatt.gitlab.io/sphinxcontrib-constdata/">documatt.gitlab.io/sphinxcontrib-constdata/</a>)</strong>. Allows showing values, listing tables, and generating links from CSV, JSON and YAML files.
+              <span class="badge">Python</span>
+            </li>
+            <li>
+              <strong>sphinx-reredirects (<a href="https://documatt.gitlab.io/sphinx-reredirects/">documatt.gitlab.io/sphinx-reredirects/</a>)</strong>. Handles redirects for moved pages. It generates HTML pages with meta refresh redirects to the new page location to prevent 404 errors if you rename or move your documents.
+              <span class="badge">Python</span>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<div class="container mt">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h2>Misc smaller projects.</h2>
+        <p class="lead">Small or in-progress side projects.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1">
+        <ul>
+            <li>
+              <strong>Page Counter (<a href="https://github.com/liborjelinek/page-counter">github.com/liborjelinek/page-counter</a>)</strong>. Python library and commandline tool to count number of standard pages in the text, files and folders.
+              <span class="badge">Python</span>
+            </li>
+            <li>
+              <strong>Snippets (<a href="https://snippets.documatt.com/">snippets.documatt.com</a>)</strong>. reStructuredText and Sphinx online editor with preview. Place to play and learn reStructuredText and Sphinx syntax.
+              <span class="badge">Python</span><span class="badge">Vue.js</span>
+            </li>
+            <li>
+              <strong>Sphinx Inspections (<a href="https://gitlab.com/documatt/sphinx-inspections/-/tree/dev">gitlab.com/documatt/sphinx-inspections/-/tree/dev</a>)</strong> (under development). Inspect documentation written in Sphinx for common issues seen in Sphinx projects that not errors but should be.
+              <span class="badge">Python</span>
+            </li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+          <ul>
+            <li>
+              <strong>Sphinx Themes (<a href="https://documatt.gitlab.io/sphinx-themes">documatt.gitlab.io/sphinx-themes</a>)</strong> Continuously growing collection of themes for Sphinx documentation projects. Themes suitable both for documentation and prose.
+              <span class="badge">Python</span><span class="badge">SASS</span><span class="badge">ES6</span>
+            </li>
+            <li>
+              <strong>Dapperdox dockerized (<a href="https://github.com/liborjelinek/docker-dapperdox">github.com/liborjelinek/docker-dapperdox</a>)</strong> Dapperdox is beautiful, integrated, OpenAPI (Swagger) documentation generator. This is source for its Dockerized image.
+              <span class="badge">Go</span><span class="badge">Docker</span>
+            </li>
+        </ul>
+      </div>
+
+  </div>
+</div>
+
+<div class="container mt">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Very old stuff.</h2>
+      <p class="lead">Super old and abandoned projects.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+      <ul>
+        <li>
+          Many <b>bugs and improvements</b> for various <a href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&email1=ljelinek%40virtage.com&emailassigned_to1=1&emailreporter1=1&emailtype1=exact&list_id=4775494&query_format=advanced">Eclipse Foundation</a> <span class="badge">Java</span> and <a href="https://github.com/search?utf8=✓&q=is%3Aissue+author%3Amattwarrick">GitHub</a> projects.
+          </li>
+
+          <li>
+            A few <b>code contributions</b>, e.g. <a href="https://github.com/mattwarrick/jssg/commits/master?author=mattwarrick">JSSG</a> (a Jekyll /static blog generator/ for JVM platform) <span class="badge">Java</span>, <a href="https://github.com/bircow/contactable/commits/master?author=mattwarrick">Contactable</a> (jQuery plugin) <span class="badge">Java</span>.
+          </li>
+          <li>
+            <b>Author</b> of <a href="https://bitbucket.org/virtage/plexflow/src">Plexflow</a> (document and file storage management) <span class="badge">Java</span>,
+
+            <b>author</b> of <a href="https://bitbucket.org/virtage/slf4j-bridges-for-eclipse-and-osgi/wiki/Home">SLF4J bridge for Eclipse and OSGi</a> (bridges OSGi logging to SLF4J) <span class="badge">Java</span>,
+
+            <b>co-author</b> of <a href="https://github.com/mattwarrick/slf4j/commits?author=mattwarrick">osgi-over-slf4j</a> (OSGi logging layer for SLF4J) <span class="badge">Java</span>.
+          </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container mt">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Books and translating.</h2>
+      <p class="lead">The last but not least I occasionally write or translate some computer books.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+
+{% macro portfolio_item(title, thumb_src, desc, download_url, link_url) -%}
+  <div class="portfolio-item">
+    <div class="he-wrap tpl6">
+      <img src="{{ thumb_src }}" alt="">
+      <div class="he-view">
+        <div class="bg a0" data-animate="fadeIn">
+          <h3 class="a1" data-animate="fadeInDown">{{ title }}</h3>
+
+          <p class="text-white">{{ desc }}</p>
+
+          {% if download_url is not none %}
+          <a href="{{ download_url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-download"></i></a>
+          {% endif %}
+
+          {% if link_url is not none %}
+          <a href="{{ link_url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+          {% endif %}
+        </div>
+        <!-- he bg -->
+      </div>
+      <!-- he view -->
+    </div>
+    <!-- he wrap -->
+  </div>
+  <!-- end col-12 -->
+{%- endmacro %}
+
+<div id="portfoliowrap">
+    <div class="portfolio-centered">
+      <div class="recentitems portfolio">
+
+        {{ portfolio_item("Správce Ubuntu a Debian I",
+                          "ebooks/ubuntu-debian-spravce-serveru-i_thumb.png",
+                          "Author, 2017",
+                          "ebooks/ubuntu-debian-spravce-serveru-i.pdf",
+                          none) }}
+
+        {{ portfolio_item("Správce Ubuntu a Debian II",
+                          "ebooks/ubuntu-debian-spravce-serveru-ii_thumb.png",
+                          "Author, 2017",
+                          "ebooks/ubuntu-debian-spravce-serveru-ii.pdf",
+                          none) }}
+
+        {{ portfolio_item("Maven příručka programátora",
+                  "ebooks/maven-prirucka-programatora_thumb.png",
+                  "Author, 2018",
+                  "ebooks/maven-prirucka-programatora.pdf",
+                  none) }}
+
+        {{ portfolio_item("PHP and MySQL Web Development",
+                  "ebooks/php-mysql-webdev-cs_thumb.png",
+                  "Co-translator, 2002",
+                  none,
+                  "https://aleph.nkp.cz/F/?func=direct&doc_number=001121246&local_base=NKC") }}
+
+        {{ portfolio_item("The absolute beginner's guide to creating web pages",
+                  "ebooks/absolute-beginners-guide-creating-webpages_thumb.png",
+                  "Translator, 2003",
+                  none,
+                  "https://aleph.nkp.cz/F/?func=direct&doc_number=001204046&local_base=NKC") }}
+
+      </div>
+      <!-- portfolio -->
+    </div>
+    <!-- portfolio container -->
+  </div>
+  <!--/Portfoliowrap -->
+
+
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
