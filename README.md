@@ -1,11 +1,13 @@
 # Libor Jelinek personal resume
 
-Website source is in templates/. Using staticjinja, the real pages are rendered to the root.
+My dead simple website 😈.
+
+Sources are in `templates/` folder. Using [staticjinja](https://pypi.org/project/staticjinja/) generator, the real pages are rendered to the root.
 
 ```
 python3 -m venv .venv
 source .venv/bin/activate
-pip install staticjinja
+pip install -r requirements.txt
 staticjinja build
 ```
 
