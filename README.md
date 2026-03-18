@@ -1,14 +1,75 @@
-# Libor Jelinek personal resume
+# Nuxt Minimal Starter
 
-My dead simple website 😈.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-Sources are in `templates/` folder. Using [staticjinja](https://pypi.org/project/staticjinja/) generator, the real pages are rendered to the root.
+## Setup
 
+Make sure to install dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-staticjinja build
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
-Website is hosted on GitHub Pages on https://liborjelinek.github.io. To publish, just `git push origin HEAD`.
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
