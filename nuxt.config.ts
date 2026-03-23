@@ -7,6 +7,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/fonts", "@nuxt/icon", "@nuxt/image", "@nuxt/scripts"],
   css: ["./app/assets/styles/main.css"],
+  app: {
+    head: {
+      link: [{ rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
+    },
+  },
   vite: {
     plugins: [tailwindcss()],
   },
