@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   scripts: {
     registry: {
       rybbitAnalytics: {
-        siteId: "32e36f020360",
+        siteId: "8741f1d21086",
       },
     },
   },
